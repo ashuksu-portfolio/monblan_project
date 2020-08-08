@@ -1,7 +1,5 @@
-# MODUS_versus
+# Monblan
 
+https://ashuksu-portfolio.github.io/monblan
 
-https://ashuksu-portfolio.github.io/modus-versus
-
-
-https://github.com/ashuksu-portfolio/modus-versus_project
+https://github.com/ashuksu-portfolio/monblan_project
