@@ -33,7 +33,19 @@
                 <p class="header__text"><span>112</span> following</p>
               </div>
               <div class="header__line header__line--bottom">
-                <span>Date</span> <input type="date"> <input type="date">
+                <span>Date</span>
+                <form class="header__form" method="get">
+                  <div class="header__date-wrapper">
+                    <input class="header__date header__date--from" type="text" placeholder="from">
+                    <div class="header__date-clean"></div>
+                    <div class="header__date-close"></div>
+                  </div>
+                  <div class="header__date-wrapper">
+                    <input class="header__date header__date--to" type="text" placeholder="to">
+                    <div class="header__date-clean"></div>
+                    <div class="header__date-close"></div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
