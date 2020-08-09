@@ -29,8 +29,9 @@ gulp.task('style', function () {
       'node_modules/normalize.css/normalize.css',
       // 'node_modules/slick-carousel/slick/slick.css',
       'node_modules/animate.css/animate.compat.css',
-      'node_modules/jquery-form-styler/dist/jquery.formstyler.css',
-      'node_modules/jquery-form-styler/dist/jquery.formstyler.theme.css'
+      // 'node_modules/jquery-form-styler/dist/jquery.formstyler.css',
+      // 'node_modules/jquery-form-styler/dist/jquery.formstyler.theme.css',
+      'node_modules/air-datepicker/dist/css/datepicker.css'
    ])
       .pipe(concat('libs.min.css'))
       .pipe(cssmin())
@@ -41,7 +42,9 @@ gulp.task('script', function () {
    return gulp.src([
       // 'node_modules/slick-carousel/slick/slick.js',
       'node_modules/wowjs/dist/wow.js',
-      'node_modules/jquery-form-styler/dist/jquery.formstyler.js'
+      // 'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
+      'node_modules/air-datepicker/dist/js/datepicker.js'
+
    ])
       .pipe(concat('libs.min.js'))
       .pipe(uglify())
